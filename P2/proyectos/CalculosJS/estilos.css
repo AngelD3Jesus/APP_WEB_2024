@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Playa.jpg')
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button:active {
+    background-color: plum;
+}
+
+#resultado {
+    font-size: 20px;
+    margin-top: 20px;
+}
+#principal {
+    content: center;
+    
+}

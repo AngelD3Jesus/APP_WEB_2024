@@ -1,0 +1,111 @@
+/* Aplicar estilos generales  */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* APLICAR ESTILOS A EL HEADER "INICIO" */
+
+#inicio{
+    background-image: url(../img/fondo1.jpg);
+    height: 100vmin;
+    background-size: cover;
+}
+
+.contenedor{
+    margin: auto;
+    width: 90%;
+    max-width: 1920px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu p{
+    display: inline;
+    font-size: 2vmax;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lista{
+    display: flex;
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+.lista li{
+    margin-left: 1.5vmin;
+    justify-content: center;
+}
+
+.btn-menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-menu:hover{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    border: 1px solid silver
+
+}
+
+.titular{
+    margin-top: 12rem;
+    text-align: center;
+
+}
+
+.titular h1{
+    font-size: 4vw;
+    margin: 0;
+}
+
+.titular h2{
+    font-size: 2,5vw;
+    margin-bottom: 4vw;
+}
+
+.boton{
+    background-color: #5db8f8;
+    padding: 2vw;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.boton:hover{
+    font-size: 1.1vw;
+}
+
+.boton:active{
+    background-color: #f0ea328a;
+}
+
+
+/* Aplicar estilos a la seccion "sobremi" */
+
+
+
+
+/* APLICAR ESTILOS A LA SECCION "SERVICIOS" */
+
+
+
+
+/* Aplicar estilos a el atributo class */
+
+
+
+/* Aplicar estilos al pie */
+
